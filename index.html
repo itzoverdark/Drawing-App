@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="lib/p5.min.js"></script>
+    <script src="lib/p5.dom.js"></script>
+
+
+    <script src="sketch.js"></script>
+
+
+    <!-- add extra scripts below -->
+    <script src="toolbox.js"></script>
+    <script src="colourPalette.js"></script>
+    <script src="helperFunctions.js"></script>
+    <script src="freehandTool.js"></script>
+    <script src="lineToTool.js"></script>
+    <script src="eraser.js"></script>
+    <script src="shapes.js"></script>
+    <script src="fillTool.js"></script>
+    <script src="sprayCanTool.js"></script>
+    <script src="mirrorDrawTool.js"></script>
+    <!-- <script src="cuttingTool.js"></script> -->
+    <script src="textTool.js"></script>
+
+
+
+    <script src="testing.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.js"></script>
+    <!---->
+  </head>
+  <body>
+
+  <div class="Drawingcontainer">
+
+    <div id="CanvasTools">
+
+        <button title="Background Image"><label for="imageInput" class="custom-file-input">
+          <span class="icon"><i class="fa-regular fa-image"></i></span> 
+        </label></button>
+        <input type="file" id="imageInput" accept="image/*" style="display:none;">
+        <button id="clearButton" title="Clear Canvas"><i class="fa-solid fa-ban" ></i></button>
+        <button id="saveImageButton" title="Save Image"><i class="fa-solid fa-floppy-disk" ></i></button>
+        <button id="goBack" title="Undo"><i class="fa-solid fa-arrow-left"></i></button>
+        <button id="returnDrawing" title="Redo"><i class="fa-solid fa-arrow-right"></i></button>
+        <button id="rotateButton" title="Rotate"><i class="fa-solid fa-rotate"></i></button>
+
+    </div>
+
+    <div id="drawingCanvasTools">
+
+      <div class="box" id="sidebar"></div>
+
+      <div id="drawingColors">
+        <div class="box colourPalette"></div>
+        <div id="colorInput"><input type="color" id="choseColor" width="70px"></div>
+      </div>
+     
+     
+      <div class="box options"></div>
+
+      
+    </div>
+
+    <div id="content"></div>
+
+  </div>
+
+
+
+  </body>
+  
+  
+</html>

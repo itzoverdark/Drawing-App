@@ -1,0 +1,156 @@
+* {
+	padding: 0; 
+	margin: 0;
+}
+html, body {
+	margin: 0px;
+	height: 100%;
+	background-color: rgb(230, 219, 219);
+  }
+#Drawingcontainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#CanvasTools {
+	background-color: black;
+	padding: 0 5px;
+}
+
+#CanvasTools button {
+	border: none;
+	outline: none;
+	background-color: grey;
+	padding: 7px;
+	margin: 2px;
+	border-radius: 5px;
+	transition: 0.3s ease-in-out;
+	max-height: 30px;
+}
+
+#CanvasTools button:hover {
+	background-color: rgb(176, 172, 172);
+	cursor: pointer;
+	
+}
+
+#drawingCanvasTools {
+	display: flex;
+	background-color: rgb(143, 138, 138);
+	justify-content: center;
+	height: 100px;
+	margin: 0 auto;
+	max-width: 1440px;
+}
+
+#sidebar {
+	display: flex;
+	justify-content: center;
+	/* border: 1px solid red; */
+	width: 30%;
+	font-size: 20px;
+}
+
+.sideBarItem{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-height: 10px;
+	max-width: 10px;
+	padding: 10px;
+	cursor: pointer;
+	margin: 5px ;
+}
+
+.sideBarItem:hover {
+	background-color: rgb(209, 209, 209);
+}
+#drawingColors {
+	display: flex;
+	/* border: 1px solid red; */
+	width: 31%;
+}
+.colourPalette{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#colorInput {
+	/* border: 1px solid green; */
+	margin: 0;
+	padding: 0;
+
+}
+#choseColor {
+	
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	position: relative;
+	top: 5px;
+	overflow: hidden;
+}
+#choseColor:hover {
+	cursor: pointer;
+}
+input[type=color]::-webkit-color-swatch {
+	border: none;
+	outline: none;
+	border-radius: 50%;
+	padding: 0;
+  }
+  
+  input[type=color]::-webkit-color-swatch-wrapper {
+	  border: none;
+	  outline: none;
+	  border-radius: 50%;
+	  padding: 0;
+  }
+
+.colourSwatches{
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	margin: 0 3px;
+}
+.colourSwatches:hover {
+	cursor: pointer;
+}
+
+.box {
+  background-color: rgb(143, 138, 138);
+  color: #fff;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+
+#content {
+	margin: 0 auto;
+	height: 100vh;
+	width: 1440px;
+	max-height: 600px;
+}
+
+.options button {
+	margin: 3px;
+	transition: 0.3s ease-in-out;
+}
+
+.options button:hover {
+	cursor: pointer;
+	background-color: rgb(207, 205, 205);
+}
+.options {
+	margin-top: 10px;
+	text-align: center;
+	width: 40%;
+}
+
+
+.icon i:hover {
+	cursor: pointer;
+}

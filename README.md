@@ -1,6 +1,8 @@
 
 # Drawing App
 
+![Drawing App GIF](https://raw.githubusercontent.com/itzoverdark/portfolio/refs/heads/main/Drawing-App.gif?token=GHSAT0AAAAAACVUS45W4H3FDGCVDEOKIJB6ZXQVMHQ)
+
 ## Overview
 
 The Drawing App is a web-based drawing application implemented in JavaScript using Object-Oriented Programming (OOP) principles. This application allows users to draw using various tools and functionalities.

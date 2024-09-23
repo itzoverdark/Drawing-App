@@ -1,7 +1,7 @@
 
 # Drawing App
 
-![Drawing App GIF](https://raw.githubusercontent.com/itzoverdark/portfolio/refs/heads/main/Drawing-App.gif?token=GHSAT0AAAAAACVUS45W4H3FDGCVDEOKIJB6ZXQVMHQ)
+![Drawing App GIF](https://raw.githubusercontent.com/itzoverdark/portfolio/refs/heads/main/Drawing-App.gif)
 
 ## Overview
 
